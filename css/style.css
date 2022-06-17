@@ -1,0 +1,196 @@
+/********** Base styles **********/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+  
+  h2 {
+    margin-bottom: 5%;
+    text-align: center; 
+    margin-top: 5%;
+
+  }
+ 
+  #box2{
+    float:right ;
+    border: 3px solid black;
+    width:fit-content;
+    width: 30%;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 2%;
+    font-size: medium;
+
+  }
+  .col{
+    background-color: firebrick;
+  }
+  #box3{
+   margin-top: 10%;
+ 
+  }
+
+
+  
+  
+  p {
+    padding-left:  5%;
+    padding-right: 5%;
+    padding-bottom: 3%;
+  }
+  
+  /* Simple Responsive Framework. */
+  .row {
+    width: 100%;
+  }
+  
+  /********** Large devices only **********/
+  @media (min-width: 992px) {
+    .col-lg-3 {
+        float:left;
+       
+        border: 5px solid black;
+
+    }
+    .col-lg-3 {
+        width: 25%;
+    }
+
+    #boxChick {  
+      background-color: gray;
+      padding: 10px 10px 10px 10px;
+      padding-top: 0%;
+      padding-right: 0%;
+      border: 3px solid black;
+      margin-top: 20px;
+      overflow: auto;
+      margin-left: 2.5%;
+      width: 30%;
+      font-weight: bold;
+  
+   } 
+
+  #boxBeef{
+    background-color: gray;
+    padding: 10px 10px 10px 10px;
+    padding-top: 0%;
+    padding-right: 0%;
+    border: 3px solid black;
+    margin-top: 20px;
+    overflow: auto;
+    margin-left: 2.5%;
+    width: 30%;
+    font-weight: bold;
+
+   }
+    #boxSushi{  
+      background-color: gray;
+      padding: 10px 10px 10px 10px;
+      padding-top: 0%;
+      padding-right: 0%;
+      border: 3px solid black;
+      margin-top: 20px;
+      overflow: auto;
+      margin-left: 2.5%;
+      width: 30%;
+      font-weight: bold;
+   }
+
+  
+}
+   
+  
+  /********** Medium devices only **********/
+  @media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6{
+      float: left;
+      border: 5px solid black;
+
+    }
+
+    .col-md-6 {
+      width: 45%;
+    }
+    #boxSushi{
+      overflow: auto;
+      background-color: gray;
+      margin-top: 25px;
+      margin-left: 3.2%;
+      margin-bottom: 2%;
+      width: 93.5%;
+    }
+    #boxChick {  
+       overflow: auto;
+      background-color: gray;
+      margin-top: 25px;
+      margin-left: 3.2%;
+      margin-bottom: 2%;
+     } 
+
+     #boxBeef{ 
+       overflow: auto;
+      background-color: gray;
+      margin-top: 25px;
+      margin-left: 3.2%;
+      margin-bottom: 2%;
+   }
+    /* #box{
+
+      overflow: auto;
+      background-color: gray;
+      margin-top: 20px;
+      margin-left: 3.2%;
+      margin-bottom: 2%;
+    } */
+   
+   
+  }
+    /********** Small devices only **********/
+    @media (min-width: 11px) and (max-width: 767px) {
+    .col-sm-12 {
+      width: 90%;
+    }
+    .col-sm-12 {
+      float:left;
+      border: 5px solid black;
+
+  }
+  #boxSushi{
+    overflow: auto;
+    margin-left: 2.5%;
+    background-color: gray;
+    margin-left: 5%;
+    margin-top: 20px;
+  }
+  #boxChick {  
+    overflow: auto;
+    margin-left: 2.5%;
+    background-color: gray;
+    margin-left: 5%;
+    margin-top: 20px;
+   } 
+
+   #boxBeef{ 
+    overflow: auto;
+    margin-left: 2.5%;
+    background-color: gray;
+    margin-left: 5%;
+    margin-top: 20px;
+ }
+    /* #box{
+
+      overflow: auto;
+      margin-left: 2.5%;
+      background-color: gray;
+      margin-left: 5%;
+      margin-top: 20px;
+    } */
+    #box3{
+      margin-top: 15%;
+    
+     }
+  }
